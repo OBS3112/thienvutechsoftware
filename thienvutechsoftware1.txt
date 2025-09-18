@@ -723,7 +723,7 @@ Chrome:Mới vào thì yêu cầu đưa link url để mở web và bạn thấy
 
 
 
-Contact:Để bỏ số đt vào và đặt tên
+Contact:Để bỏ số đt vào và đặt tên cho người danh bạ ,Nhưng khi tạo xong thì tạo thư mục Contact vào thư mục AppData của user sử dụng Contact(Nếu thư mục có sẵn thì không cần tạo thư mục) và sau đó tạo file VCF và bên trong có nội dung của Contact vừa tạo xong và nếu file hỏng hoặc mất thì Contact sẽ bị mất người contact
 
 
 
