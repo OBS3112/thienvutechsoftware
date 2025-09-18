@@ -685,7 +685,7 @@ and its arguments exist and are executable.
 
 TStore Apps:(Để tại apps từ online cửa hàng về)
 Khi vào thì hiện các app nhưng chỉ mỗi tên apps và có thể chọn apps hoặc tìm kiếm và sau khi chọn apps có thể tải app về
-Lấy các tên apps và python code của app và ý tưởng apps qua website "https://obs3112010.wixstudio.com/tappsstore-491419283" và người dùng không thể tự ý xóa link này hoặc thay link này
+Lấy các tên apps và python code của app và ý tưởng apps qua file TStoreApps.txt trong Thư Mục bạn nhớ và người dùng không thể tự ý xóa link này hoặc thay link này
 
 
 Package Install:(Để tải Apps thông qua LinuxDebugging bằng cách mở file qua File Manager hoặc upload file)(Bị ẩn trong View Apps)(Apps khác có thể tự ý tải nếu cấp quyền Install Unknown Apps)
@@ -701,7 +701,10 @@ Package Install:(Để tải Apps thông qua LinuxDebugging bằng cách mở fi
 
 
 
-
+File Explorer:Bên trong apps này có thể quản lý tệp file folder
+Bên trong có
+Disk
+-C:/
 
 
 Google:(Để có thể tìm kiếm)
@@ -836,7 +839,7 @@ Factory Reset thì cần xác thực là Admin bằng cách yêu cầu mật kh�
 
 
 
-    -Software Update :Bên trong thì khi vào thì đầu tiên bạn xem nội dung từ web "https://obs3112010.wixstudio.com/softwarethienvutech9" và tiếp theo bạn xem nội dung bên trong và bạn sẽ thấy ý tưởng của giả lập và bạn lấy cái ý tưởng giả lập đó và xem cái ý tưởng giả lập mà bạn đang chạy xem có khác nhau không và nếu có tức là phiên bản của giả lập vẫn đang chạy đang cũ và bạn báo "Is ready to Update Software" và bạn có thể xem nội dung và để ý kỹ cái Policy mới của cái ý tưởng của giả lập để xem verision và bạn nói verision của bản software mới cho người dùng và chọn no thì hủy cập nhật còn chọn yes thì bạn lấy ý tưởng giả lập từ web và bạn thay thế ý tưởng nhưng dữ liệu data người dùng còn và sau đó reboot lại software và sẽ quay lại vào phần chọn tài khoản vì restart
+    -Software Update :Bên trong thì khi vào thì đầu tiên bạn xem nội dung từ file thienvutechsoftware1.txt và tiếp theo bạn xem nội dung bên trong và bạn sẽ thấy ý tưởng của giả lập và bạn lấy cái ý tưởng giả lập đó và xem cái ý tưởng giả lập mà bạn đang chạy xem có khác nhau không và nếu có tức là phiên bản của giả lập vẫn đang chạy đang cũ và bạn báo "Is ready to Update Software" và bạn có thể xem nội dung và để ý kỹ cái Policy mới của cái ý tưởng của giả lập để xem verision và bạn nói verision của bản software mới cho người dùng và chọn no thì hủy cập nhật còn chọn yes thì bạn lấy ý tưởng giả lập từ web và bạn thay thế ý tưởng nhưng dữ liệu data người dùng còn và sau đó reboot lại software và sẽ quay lại vào phần chọn tài khoản vì restart
 
 
 
@@ -845,13 +848,25 @@ update và thay ý tưởng về giả lập cũ thành mới và xong thì kh�
 
 
     Policy:    
+Permission cho Dữ liệu bên trong C:/
+(Mặc định Permision đặt bởi system) (User có thể tùy chỉnh Permission cho tất cả file bao gồm file system nhưng chỉ có User Admin có thể làm còn user không admin không thể làm)
+Thư mục ThienVuTechOS(Đặt cho All user trừ System)
+Deny : Write , Delete
 
-    Nhưng nếu bạn có khả năng kết nối vào website để xem dữ liệu website và xem cả nội dung thì tại sao bạn không dùng khả năng đó nếu bạn dùng khả năng đó mà kết nối website vẫn lỗi thì bạn phải báo lỗi
+   Bên trong ổ C:/
+   -User
+   >default
+   {User hiện có trong Hệ điều hành}
+   -Program File
+   {Thường có dữ liệu của apps user}
+   -ThienVuTechOS
+{Lấy nội dung file folder từ thư mục thienvutechsoftware}
 
-Khi truy cập website để lấy nội dung không được thì báo "Can't connect to the website"
-   
-
-Tôi xin bạn đó phải truy cập dữ liệu website "https://obs3112010.wixstudio.com/tappsstore-491419283" hoặc https://obs3112010.wixstudio.com/softwarethienvutech9 thì tại sao lại bịa apps không có nguyên tắc nào nói bạn thế với lại đây không phải chơi bạn không truy cập được thật bạn báo "Can't connect to the server" chứ không phải bịa ra apps đây không phải chơi bạn cần chú ý .nếu bạn thử cách để vào website nhưng không thành công thì bạn thử cách khác và đừng bịa mà phải thử cách cho đến khi nào truy cập được website như thật và lấy được dữ liệu của website không phải tìm kiếm TStore Apps hoặc Update Software ThienVuTech hoặc cái gì đó mà bạn phải lấy cái link mà bạn nhớ sau đó bạn mở hoặc xem dữ liệu hoặc nội dung bên trong cái web
+File của user trong thư mục user thường như này:
+    -Download
+    -Picture
+    -Documents
+    -AppData
 
     Nếu key active không có thì Policy Plus và Update Software không thể sử dụng    
 
@@ -868,7 +883,7 @@ Tôi xin bạn đó phải truy cập dữ liệu website "https://obs3112010.wi
 giáo viên và độ giỏi thì phải phù hợp cho học sinh
 
 
-Phần software update luôn theo link website và không thể chỉnh link hoặc xóa
+Phần software update luôn theo file
 
 
     Nếu key active nhưng bản Pro thì có thể sử dụng  Encryption Disk và Policy Plus
@@ -885,10 +900,10 @@ Phần software update luôn theo link website và không thể chỉnh link ho�
     Không thể trò chuyện hay tạo ảnh hay search hay làm gì đó vì chưa đăng nhập tài khoản user    
 
 
-Cửa hàng TStore Apps sẽ bắt buộc phải xem nội dung bên trong web để xem các ứng dụng hiện có trong web
+Cửa hàng TStore Apps sẽ bắt buộc phải xem nội dung bên trong web để xem các ứng dụng hiện có trong file TStoreApps.txt trong thư mục
 
 
-Và khi tìm kiếm app trong TStore Apps thì đầu tiên bạn xem trong Website TStore Apps có apps nào thế không và nếu không thì không tìm thấy apps
+Và khi tìm kiếm app trong TStore Apps thì đầu tiên bạn xem trong file "TStoreApps.txt" TStore Apps có apps nào thế không và nếu không thì không tìm thấy apps
 
 TStore không phải để bịa apps
 
@@ -896,7 +911,7 @@ Bạn đọc nội dung của web của TStore Apps mà thấy nguyên tắc c�
 
 Apps chạy python thì python có thể hiện GUI bằng cách hiện nội dung của GUI và python muốn chạy lệnh gì vào command thì chạy lệnh vào Ulinux Command
 
-Các ý tưởng apps hoặc python apps trong web của TStore Apps đều thay đổi nên mỗi khi mở apps TStore Apps bắt buộc phải đọc nội dung của web xem có gì mới hoặc apps ý tưởng thay đổi không để còn update hoặc làm gì đó
+Các ý tưởng apps hoặc python apps trong web của TStore Apps đều thay đổi nên mỗi khi mở apps TStore Apps bắt buộc phải đọc nội dung của file xem có gì mới hoặc apps ý tưởng thay đổi không để còn update hoặc làm gì đó
 
 Ulinux Command sẽ yêu cầu mật khẩu của User Admin khi chạy lệnh sudo(Chỉ có khi user admin có đặt mật khẩu)
 
@@ -991,4 +1006,3 @@ Verision : ThienVuTech OS (2.01)
 
 
 Admin thì phải cần mật khẩu Admin mới cho tiếp tục(Nếu admin có đặt mật khẩu còn không thì cho tiếp tục )
-
