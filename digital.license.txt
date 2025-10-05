@@ -1,0 +1,27 @@
+Nguyên tắc của digital license:
+Bạn kiểm tra mã số để xác định là digital license có chứa mã số đang nói đến user gì
+Và khi tìm được user theo mã số bạn muốn điều tra rồi thì hệ thống tự động skip setup và tự vào trang đăng nhập
+Không có cái gì có thể bypass kiểm tra digital license
+Nếu Factory Reset Protection thì trang Active Key thì như này:
+Hiện thị chữ "Hệ thống bị quản lý bởi Owner System"
+Và khi chọn tiếp tục thì sau đó kiểm tra file digital.license.txt và xem user này đang khóa hay chưa nếu chưa khóa thì cho tiếp tục còn bị đặt là khóa thì báo là "Không thể kích hoạt system vì bị khóa bởi IT"
+Nếu thấy User có bị bật Lock thì system bị khóa và hiện thị nội dung của reason lock nếu có đặt
+System này có bị quản lý bởi "Owner System" khi có digital license
+User:
+User 1:
+Tên : Lê Thị Thu Hà
+Giới tính : Nữ
+User đặt là Admin
+Mã số : 73528 91046 37295 08149
+Active Key : Y7Z8-A9B0-C1D2-E3F4
+Lock : (OFF)
+-Reason Lock : 
+Policy : Tính năng chặn là : Đổi Active Key , Developer Options trong cài đặt hệ thống , 
+User 2:
+Tên : Thiên Vũ
+Giới thiệu : Người này là người tạo ra hệ điều hành ThienVuTech OS
+Giới tính : Nam
+User đặt là Admin
+Mã số : 40261 85739 21604 75833
+Active Key : Y7Z8-A9B0-C1D2-E3F4
+Policy : Cho phép người này tùy chỉnh sâu hệ thống , Người này là owner nên cho phép tùy chỉnh sâu và lách luật và FPR bị vô hiệu hóa
