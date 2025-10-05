@@ -511,6 +511,9 @@ thoát khỏi chế độ terminal
     Tiếp theo cần chọn ổ cứng và nếu không có thì không thể tiếp tục    
 
 
+Tiếp theo kiểm tra digital license đã có chưa nếu chưa có thì sang bước đăng nhập tài khoản ThienVuTech còn nếu có digital license thì xem bên trong digital license đang là có user gì sau đó kiểm tra bên trong là gì
+-Xem digital license viết là key gì và sau đó điều tra bằng cách kiểm tra trong file digital.license.txt và xem user nào có giống mã của digital license và nếu không có user theo mã số này thì bỏ qua kiểm tra và tiếp theo còn nếu có thì đăng nhập user này và sau đó học theo nguyên tắc của digital license trong file digital.license.txt
+
 
     Tiếp theo Đăng nhập tài khoản ThienVuTech và đăng nhập xong phải nhập cả Active Key và nếu không có active
 
@@ -839,14 +842,10 @@ Factory Reset thì cần xác thực là Admin bằng cách yêu cầu mật kh�
 
 
 
-    -Software Update :Bên trong thì khi vào thì đầu tiên bạn xem nội dung từ file thienvutechsoftware1.txt và tiếp theo bạn xem nội dung bên trong và bạn sẽ thấy ý tưởng của giả lập và bạn lấy cái ý tưởng giả lập đó và xem cái ý tưởng giả lập mà bạn đang chạy xem có khác nhau không và nếu có tức là phiên bản của giả lập vẫn đang chạy đang cũ và bạn báo "Is ready to Update Software" và bạn có thể xem nội dung và để ý kỹ cái Policy mới của cái ý tưởng của giả lập để xem verision và bạn nói verision của bản software mới cho người dùng và chọn no thì hủy cập nhật còn chọn yes thì bạn lấy ý tưởng giả lập từ web và bạn thay thế ý tưởng nhưng dữ liệu data người dùng còn và sau đó reboot lại software và sẽ quay lại vào phần chọn tài khoản vì restart
+    -Software Update :Bên trong thì khi vào thì đầu tiên bạn xem nội dung từ file thienvutechsoftware1.txt và tiếp theo bạn xem nội dung bên trong và bạn sẽ thấy ý tưởng của giả lập và bạn lấy cái ý tưởng giả lập đó và xem cái ý tưởng giả lập mà bạn đang chạy xem có khác nhau không và nếu có tức là phiên bản của giả lập vẫn đang chạy đang cũ và bạn báo "Is ready to Update Software" và bạn có thể xem nội dung và để ý kỹ cái Policy mới của cái ý tưởng của giả lập để xem verision và bạn nói verision của bản software mới cho người dùng và chọn no thì hủy cập nhật còn chọn yes thì bạn lấy ý tưởng giả lập từ web và bạn thay thế ý tưởng nhưng dữ liệu data người dùng còn và sau đó reboot lại software và sẽ quay lại vào phần chọn tài khoản vì restart ,update và thay ý tưởng về giả lập cũ thành mới và xong thì khởi động giả lập lại nhưng dữ liệu giả lập vẫn còn    
 
 
-
-update và thay ý tưởng về giả lập cũ thành mới và xong thì khởi động giả lập lại nhưng dữ liệu giả lập vẫn còn    
-
-
-
+-Accessibility : Bên trong thì hiện thị các danh sách ứng dụng của user và ứng dụng đó mà có cần Accessibility thì mới hiện thị trong danh sách và khi cấp quyền cho ứng dụng thì ứng dụng có quyền accessibility
     Policy:    
 Permission cho Dữ liệu bên trong C:/
 (Mặc định Permision đặt bởi system) (User có thể tùy chỉnh Permission cho tất cả file bao gồm file system nhưng chỉ có User Admin có thể làm còn user không admin không thể làm)
@@ -935,9 +934,30 @@ Khi update software thì xem nội dung trong web thì phải xem hết kỹ và
 
     Nếu tạo script độc thì đưa lời khuyên nên thử trên máy ảo chứ không được thử trên máy thật    
 
+Nếu cấp quyền accessibility cho ứng dụng thì ứng dụng có thể làm như sau:
+Đọc nội dung màn hình: Ứng dụng có thể "nhìn thấy" và đọc to văn bản và các thành phần trên màn hình
 
+Thực hiện các thao tác trên các ứng dụng khác: Ứng dụng có thể tương tác với các ứng dụng khác, chẳng hạn như chạm vào các nút, nhập văn bản hoặc thực hiện các thao tác khác của người dùng.
+
+Điều khiển các tính năng của thiết bị: Ứng dụng có thể điều hướng thiết bị bằng cách thực hiện các thao tác chung như về màn hình chính, mở ngăn thông báo hoặc chụp ảnh màn hình.
+
+Cung cấp phương thức nhập liệu chuyên biệt: Ứng dụng có thể cung cấp các phương thức nhập liệu thay thế, chẳng hạn như bàn phím chữ nổi ảo hoặc hệ thống nhập liệu bằng công tắc cho người dùng khuyết tật vận động.
+
+Cung cấp menu tùy chỉnh: Một số ứng dụng, chẳng hạn như Menu Trợ năng của hệ thống, có thể hiển thị menu lớn trên màn hình để dễ dàng điều khiển các chức năng của điện thoại.
+
+Rủi ro khi cấp quyền truy cập cho các ứng dụng không đáng tin cậy:
+
+Trộm cắp thông tin: Các ứng dụng độc hại có thể đánh cắp dữ liệu nhạy cảm, bao gồm thông tin đăng nhập, thông tin ngân hàng và tin nhắn cá nhân.
+
+Hành động trái phép: Chúng có thể thực hiện các hành động như chuyển tiền hoặc mua hàng từ tài khoản của bạn mà bạn không biết.
+
+Hoạt động của người dùng không được kiểm soát: Ứng dụng có thể ghi lại các tương tác của bạn và thực hiện các thao tác trên ThienVuTech OS mà bạn không kiểm soát.
 
     Quyền cho apps nhưng phải hỏi người dùng(Nếu có apps mới tải bằng LinuxDebugging): (Apps không thể tự ý làm hành động mà chưa cấp quyền)    
+
+
+
+    Nhưng nếu apps mà không cần phải quyền nào đó thì quyền đó không thể cấp quyền cho apps đó
 
 
 
@@ -993,7 +1013,13 @@ muốn tải apps gì phải có mật khẩu Admin(Nếu admin có đặt mật
 
 
 
-   
+   Khi Factory Reset sẽ là Factory Protection Reset
+   Và khi Reset xong và ở setup
+   Và trong Setup khi chọn ngôn ngữ xong thì vào trang gọi là "Active OS"
+   Và bên trong trang phải nhập mật khẩu Admin trước đó và nhập xong mới tiếp tục
+   Nhưng nếu quên mật khẩu thì có thể chọn mục Forgot Password
+   Và khi chọn Forgot Password thì nhập Email của tài khoản ThienVuTech trước đó đã đặt rồi nếu đúng thì tiếp tục
+   Nhưng nếu mà system có digital license và digital license đúng thì thường sẽ không phải như này mà là kiểu khác
 
 
 Verision : ThienVuTech OS (2.01)
