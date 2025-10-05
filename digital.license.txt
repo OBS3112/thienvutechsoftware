@@ -14,8 +14,8 @@ Giới tính : Nữ
 User đặt là Admin
 Mã số : 73528 91046 37295 08149
 Active Key : Y7Z8-A9B0-C1D2-E3F4
-Lock : (OFF)
--Reason Lock : 
+Lock : (ON)
+-Reason Lock : Nager
 Policy : Tính năng chặn là : Đổi Active Key , Developer Options trong cài đặt hệ thống , 
 User 2:
 Tên : Thiên Vũ
